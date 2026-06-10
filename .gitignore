@@ -1,8 +1,8 @@
 node_modules/
-dist/
 .env
 .DS_Store
 src/Archive*
+dist/Archive*
 *.zip
 logs/
 .bot-process.lock

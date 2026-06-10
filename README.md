@@ -50,9 +50,15 @@ Base template:
 
 - [.env.example](/Users/jthomas/Documents/Evergreen%20Bot/.env.example)
 
+## Northflank 24/7 hosting
+
+For the easiest free dashboard-based setup, use:
+
+- [NORTHFLANK-SETUP.md](/Users/jthomas/Documents/Evergreen%20Bot/NORTHFLANK-SETUP.md)
+
 ## Oracle Cloud 24/7 hosting
 
-If you want the bot online even when your Mac is off, use the Oracle Cloud setup here:
+If you want the stronger but more manual free setup, use:
 
 - [ORACLE-CLOUD-SETUP.md](/Users/jthomas/Documents/Evergreen%20Bot/ORACLE-CLOUD-SETUP.md)
 
