@@ -1,0 +1,9 @@
+.env
+antiraid-settings.json
+moderation-role-settings.json
+moderation-settings.json
+server-log-settings.json
+session-settings.json
+rp-state.json
+reason-tracker.json
+watchlist-store.json

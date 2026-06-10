@@ -1,0 +1,22 @@
+name: Deploy Miami Bot to Oracle
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy over SSH
+        uses: appleboy/ssh-action@v1.2.0
+        with:
+          host: ${{ secrets.ORACLE_HOST }}
+          username: ${{ secrets.ORACLE_USER }}
+          key: ${{ secrets.ORACLE_SSH_KEY }}
+          script: |
+            export APP_DIR=/opt/miami-bot
+            export BRANCH=main
+            bash /opt/miami-bot/oracle/update-on-vm.sh

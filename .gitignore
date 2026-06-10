@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.env
+.DS_Store
+src/Archive*
+*.zip
+logs/
+.bot-process.lock
+session-settings.json
+rp-state.json
+reason-tracker.json
+watchlist-store.json
+antiraid-settings.json
+moderation-role-settings.json
+moderation-settings.json
+server-log-settings.json
